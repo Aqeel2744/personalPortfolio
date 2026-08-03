@@ -64,7 +64,7 @@ export const experience = [
     stack: ['HTML', 'JavaScript', 'Tailwind CSS', 'Responsive Design'],
     stack: ['HTML', 'JavaScript', 'Tailwind CSS'],
     certificates: [
-      { name: 'Completion Certificate', url: 'public/certificates/certificate4.jpg' },
+      { name: 'Completion Certificate', url: 'assets/certificates/certificate4.jpg' },
     ],
   },
   {
@@ -76,8 +76,8 @@ export const experience = [
     stack: ['Django', 'Python', 'MySQL'],
     certificates: [
       // This is an example of an internship with two certificates:
-      { name: 'Completion Certificate', url: 'public/certificates/certificate2.jpg' },
-      { name: 'Recommendation Letter', url: 'public/certificates/certificate3.jpg' },
+      { name: 'Completion Certificate', url: 'assets/certificates/certificate2.jpg' },
+      { name: 'Recommendation Letter', url: 'assets/certificates/certificate3.jpg' },
     ],
   },
   {
@@ -88,7 +88,7 @@ export const experience = [
       'Developed responsive and modern web applications using the MERN stack, building both frontend interfaces and backend APIs. Collaborated with the development team to implement new features, optimize application performance, integrate databases, and deliver scalable, user-friendly solutions while following industry best practices.',
     stack: ['React', 'Node.js', 'MongoDB'],
     certificates: [
-      { name: 'Completion Certificate', url: 'public/certificates/certificate1.jpg' },
+      { name: 'Completion Certificate', url: 'assets/certificates/certificate1.jpg' },
     ],
   },
 ]
@@ -101,7 +101,7 @@ export const projects = [
       'A full-stack MERN charity platform that connects donors with people and organizations in need. Users can donate money, blood, and essential items, while NGOs and shelters can manage donation requests through an intuitive and responsive web interface.',
     stack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
     stack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
-    image: 'public/projects/proj1.png', // e.g. '/projects/project-one.png'
+    image: 'assets/projects/proj1.png', // e.g. '/projects/project-one.png'
     links: {
       demo: 'https://aid-align-charity-app-95qq.vercel.app/', // e.g. 'https://your-demo-link.com'
       github: 'https://github.com/Aqeel2744/AidAlign-charityApp', // e.g. 'https://github.com/you/project-one'
@@ -113,7 +113,7 @@ export const projects = [
     description:
       'An AI-powered trip planning platform built with the MERN stack that helps users create personalized travel itineraries. It includes user authentication, AI-generated travel plans, destination recommendations, trip management, and a responsive modern UI for seamless travel planning.',
     stack: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Gemini AI'],
-    image: 'public/projects/proj2.png',
+    image: 'assets/projects/proj2.png',
     links: {
       demo: 'https://ai-tripplanner-five.vercel.app',
       github: 'https://github.com/Aqeel2744/AiTripPlanner',
@@ -125,7 +125,7 @@ export const projects = [
     description:
       'Morph Studio 3D is a futuristic web experience built with Three.js, GSAP ScrollTrigger, and Lenis, featuring immersive 3D animations, interactive WebGL scenes, smooth scroll-driven transitions, a dynamic particle background, and a real-time customization studio for experimenting with shapes, materials, and animation effects.',
     stack: ['Three.js', 'GSAP', 'Lenis', 'React', 'Tailwind CSS'],
-    image: 'public/projects/proj3.png', // e.g. '/projects/project-one.png'
+    image: 'assests/projects/proj3.png', // e.g. '/projects/project-one.png'
     links: {
       demo: 'https://morph-studio-uwdv.vercel.app',
         github: 'https://github.com/Aqeel2744/MorphStudio',
