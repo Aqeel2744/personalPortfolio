@@ -1,4 +1,11 @@
+import proj1 from '../assets/projects/proj1.png';
+import proj2 from '../assets/projects/proj2.png';
+import proj3 from '../assets/projects/proj3.png';
 
+import certificate1 from '../assets/certificates/certificate1.jpg';
+import certificate2 from '../assets/certificates/certificate2.jpg';
+import certificate3 from '../assets/certificates/certificate3.jpg';
+import certificate4 from '../assets/certificates/certificate4.jpg';
 
 export const profile = {
   name: 'Aqeel Ahmed Sheikh',
@@ -64,7 +71,7 @@ export const experience = [
     stack: ['HTML', 'JavaScript', 'Tailwind CSS', 'Responsive Design'],
     stack: ['HTML', 'JavaScript', 'Tailwind CSS'],
     certificates: [
-      { name: 'Completion Certificate', url: 'assets/certificates/certificate4.jpg' },
+      { name: 'Completion Certificate', url: certificate4 },
     ],
   },
   {
@@ -76,8 +83,8 @@ export const experience = [
     stack: ['Django', 'Python', 'MySQL'],
     certificates: [
       // This is an example of an internship with two certificates:
-      { name: 'Completion Certificate', url: 'assets/certificates/certificate2.jpg' },
-      { name: 'Recommendation Letter', url: 'assets/certificates/certificate3.jpg' },
+      { name: 'Completion Certificate', url: certificate2 },
+      { name: 'Recommendation Letter', url: certificate3 },
     ],
   },
   {
@@ -88,7 +95,7 @@ export const experience = [
       'Developed responsive and modern web applications using the MERN stack, building both frontend interfaces and backend APIs. Collaborated with the development team to implement new features, optimize application performance, integrate databases, and deliver scalable, user-friendly solutions while following industry best practices.',
     stack: ['React', 'Node.js', 'MongoDB'],
     certificates: [
-      { name: 'Completion Certificate', url: 'assets/certificates/certificate1.jpg' },
+      { name: 'Completion Certificate', url: certificate1 },
     ],
   },
 ]
@@ -100,8 +107,7 @@ export const projects = [
     description:
       'A full-stack MERN charity platform that connects donors with people and organizations in need. Users can donate money, blood, and essential items, while NGOs and shelters can manage donation requests through an intuitive and responsive web interface.',
     stack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
-    stack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
-    image: 'assets/projects/proj1.png', // e.g. '/projects/project-one.png'
+    image: proj1, // e.g. '/projects/project-one.png'
     links: {
       demo: 'https://aid-align-charity-app-95qq.vercel.app/', // e.g. 'https://your-demo-link.com'
       github: 'https://github.com/Aqeel2744/AidAlign-charityApp', // e.g. 'https://github.com/you/project-one'
@@ -113,7 +119,7 @@ export const projects = [
     description:
       'An AI-powered trip planning platform built with the MERN stack that helps users create personalized travel itineraries. It includes user authentication, AI-generated travel plans, destination recommendations, trip management, and a responsive modern UI for seamless travel planning.',
     stack: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Gemini AI'],
-    image: 'assets/projects/proj2.png',
+    image: proj2,
     links: {
       demo: 'https://ai-tripplanner-five.vercel.app',
       github: 'https://github.com/Aqeel2744/AiTripPlanner',
@@ -125,7 +131,7 @@ export const projects = [
     description:
       'Morph Studio 3D is a futuristic web experience built with Three.js, GSAP ScrollTrigger, and Lenis, featuring immersive 3D animations, interactive WebGL scenes, smooth scroll-driven transitions, a dynamic particle background, and a real-time customization studio for experimenting with shapes, materials, and animation effects.',
     stack: ['Three.js', 'GSAP', 'Lenis', 'React', 'Tailwind CSS'],
-    image: 'assests/projects/proj3.png', // e.g. '/projects/project-one.png'
+    image: proj3, // e.g. '/projects/project-one.png'
     links: {
       demo: 'https://morph-studio-uwdv.vercel.app',
         github: 'https://github.com/Aqeel2744/MorphStudio',
